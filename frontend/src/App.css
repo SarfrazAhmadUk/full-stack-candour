@@ -1,0 +1,68 @@
+.root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 70px;
+  width: 100%;
+}
+
+.container {
+  width: 70%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filters {
+  display: flex;
+  column-gap: 5px;
+}
+
+.header input {
+  padding: 10px;
+  font-size: 18px;
+}
+
+.header select {
+  padding: 10px;
+  font-size: 18px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.badge {
+  cursor: pointer;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  padding: 3px 0px;
+  font-weight: bold;
+}
+
+.badge-pending {
+  background: orange;
+}
+
+.badge-approved {
+  background: green;
+}
